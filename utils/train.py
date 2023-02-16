@@ -300,12 +300,15 @@ def train(params, io, train_set, test_set):
         )
         io.cprint(f"Training Classes: {np.unique(true_pred)}, Validation Classes: {np.unique(test_pred)}")
         
-        try:
-            send_telegram(f"Epoch: {epoch+1}, Val F1: {val_f1}, Best F1: {best_test_f1} at Epoch {best_epoch}")
-            if best_epoch == epoch + 1:
-                send_photos(open(filename, 'rb'))
-        except:
-            pass
+        if params["send_telegrams"]:
+            try:
+                token = ''
+                chat_id = ''
+                send_telegram(f"Epoch: {epoch+1}, Val F1: {val_f1}, Best F1: {best_test_f1} at Epoch {best_epoch}", token=token, chat_id=chat_id)
+                if best_epoch == epoch + 1:
+                    send_photos(open(filename, 'rb'), token=token, chat_id=chat_id)
+            except:
+                pass
         
 
         # Apply addaptive learning
