@@ -108,8 +108,11 @@ if __name__ == "__main__":
         "eval": False,  # run testing
         "train_weights": train_weights, # training weights
         "write_aug": False, # write augmented files
+        "send_telegram": False
     }
-    
-    mn = params["exp_name"]
-    send_telegram(f"Starting {mn}")
+    if params["send_telegrams"]:
+        mn = params["exp_name"]
+        token = ''
+        chat_id = ''
+        send_telegram(f"Starting {mn}", token=token, chat_id=chat_id)
     main(params)
