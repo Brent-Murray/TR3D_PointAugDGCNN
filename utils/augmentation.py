@@ -115,47 +115,6 @@ def random_noise(coords, n, dim=1, x=None):
     return aug_coords, aug_x
 
 
-def farthest_point_sampling(coords, k):
-    # Adapted from https://minibatchai.com/sampling/2021/08/07/FPS.html
-
-    # Get points into numpy array
-    points = np.array(coords)
-
-    # Get points index values
-    idx = np.arange(len(coords))
-
-    # Initialize use_idx
-    use_idx = np.zeros(k, dtype="int")
-
-    # Initialize dists
-    dists = np.ones_like(idx) * float("inf")
-
-    # Select a point from its index
-    selected = 0
-    use_idx[0] = idx[selected]
-
-    # Delete Selected
-    idx = np.delete(idx, selected)
-
-    # Iteratively select points for a maximum of k samples
-    for i in range(1, k):
-        # Find distance to last added point and all others
-        last_added = use_idx[i - 1]  # get last added point
-        dist_to_last_added_point = ((points[last_added] - points[idx]) ** 2).sum(-1)
-
-        # Update dists
-        dists[idx] = np.minimum(dist_to_last_added_point, dists[idx])
-
-        # Select point with largest distance
-        selected = np.argmax(dists[idx])
-        use_idx[i] = idx[selected]
-
-        # Update idx
-        idx = np.delete(idx, selected)
-    return use_idx
-
-
-
 class AugmentPointCloudsInDF(Dataset):
     """Point cloud dataset where one data point is a file."""
 
