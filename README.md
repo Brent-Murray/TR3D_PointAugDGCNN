@@ -1,6 +1,13 @@
 # TR3D_PointAugDGCNN
 PointAugment and DGCNN Classification Benchmark for TR3D
 
+Models
+----
+| Model | Description | Reference |
+| ----- | ----------- | --------- |
+| PointAugment | Adaptation of PointAugment model for tree species point cloud augmentations | (Li et al., 2020)](https://arxiv.org/abs/2002.10876) |
+| DGCNN | Adaptation of Dynamic Graph Covolutional Neural Network (DGCNN) model for tree species classification on point clouds | [(Wang et al., 2019)](https://arxiv.org/abs/1801.07829) |
+
 Contents
 ----
 | Folder | File | Description |
