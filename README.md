@@ -1,5 +1,5 @@
 # TR3D_PointAugDGCNN
-PointAugment and DGCNN Classification Benchmark for TR3D
+PointAugment and DGCNN Classification Benchmark for [Tr3D Species Benchmark](https://github.com/stefp/Tr3D_species).
 
 Models
 ----
