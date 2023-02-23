@@ -1,5 +1,5 @@
 # TR3D_PointAugDGCNN
-PointAugment and DGCNN Classification Benchmark for [Tr3D Species Benchmark](https://github.com/stefp/Tr3D_species).
+PointAugment and DGCNN Classification Benchmark for [Tr3D Species Benchmark](https://github.com/stefp/Tr3D_species). Model achieved the highest F1 score of 0.767 during the training/validation phase.
 
 Models
 ----
