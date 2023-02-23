@@ -1223,3 +1223,573 @@ Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 2
  25 26 27 28 29 30 32]
 Augmentor LR: 1.0000000000000005e-09, Scheduler: Step
 Classifier LR: 1.0000000000000005e-09, Scheduler: Step
+Epoch: 206, Training - Augmentor Loss: 1.0575298176994465, Training - Classifier Loss: 230.65334618091583, Training F1: 0.8209849480528131, Validation Loss: 0.11658772797587226, Validation F1: 0.7533164106469366, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000005e-09, Scheduler: Step
+Classifier LR: 1.0000000000000005e-09, Scheduler: Step
+Epoch: 207, Training - Augmentor Loss: 1.1330459680809024, Training - Classifier Loss: 230.5602895518144, Training F1: 0.8211369105213226, Validation Loss: 0.11651544016273192, Validation F1: 0.7568849375117693, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-10, Scheduler: Step
+Classifier LR: 1.0000000000000006e-10, Scheduler: Step
+Epoch: 208, Training - Augmentor Loss: 1.1586188109136704, Training - Classifier Loss: 230.8163567086061, Training F1: 0.8177884585604981, Validation Loss: 0.11666303903352467, Validation F1: 0.7551321962303278, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-10, Scheduler: Step
+Classifier LR: 1.0000000000000006e-10, Scheduler: Step
+Epoch: 209, Training - Augmentor Loss: 1.1691933714644922, Training - Classifier Loss: 230.79610629876456, Training F1: 0.8178368904456033, Validation Loss: 0.11700068605208652, Validation F1: 0.7457678922677998, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-10, Scheduler: Step
+Classifier LR: 1.0000000000000006e-10, Scheduler: Step
+Epoch: 210, Training - Augmentor Loss: 1.1360417544120385, Training - Classifier Loss: 230.78929215669632, Training F1: 0.817604055816969, Validation Loss: 0.11646350731895443, Validation F1: 0.7562586244708104, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-10, Scheduler: Step
+Classifier LR: 1.0000000000000006e-10, Scheduler: Step
+Epoch: 211, Training - Augmentor Loss: 1.0991750834355116, Training - Classifier Loss: 230.51266394058862, Training F1: 0.8238978141834251, Validation Loss: 0.11657310636079897, Validation F1: 0.7518666495459416, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-10, Scheduler: Step
+Classifier LR: 1.0000000000000006e-10, Scheduler: Step
+Epoch: 212, Training - Augmentor Loss: 1.0699958464671606, Training - Classifier Loss: 230.72685288389525, Training F1: 0.8204504486474687, Validation Loss: 0.11679738083510396, Validation F1: 0.7458490096302224, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-10, Scheduler: Step
+Classifier LR: 1.0000000000000006e-10, Scheduler: Step
+Epoch: 213, Training - Augmentor Loss: 1.1784848165933302, Training - Classifier Loss: 230.6256002585093, Training F1: 0.8191862675979698, Validation Loss: 0.11641123145398011, Validation F1: 0.7570337592213465, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-10, Scheduler: Step
+Classifier LR: 1.0000000000000006e-10, Scheduler: Step
+Epoch: 214, Training - Augmentor Loss: 1.164897655770119, Training - Classifier Loss: 230.4806512594223, Training F1: 0.8226537265798647, Validation Loss: 0.11658528011306944, Validation F1: 0.7562885486457231, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-10, Scheduler: Step
+Classifier LR: 1.0000000000000006e-10, Scheduler: Step
+Epoch: 215, Training - Augmentor Loss: 1.168600655798021, Training - Classifier Loss: 230.60790307323137, Training F1: 0.8201031969402701, Validation Loss: 0.11652278792447522, Validation F1: 0.7540272305973224, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-10, Scheduler: Step
+Classifier LR: 1.0000000000000006e-10, Scheduler: Step
+Epoch: 216, Training - Augmentor Loss: 1.1939966644883195, Training - Classifier Loss: 230.76966439684233, Training F1: 0.8179222191439943, Validation Loss: 0.116374884938736, Validation F1: 0.7590813304579704, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-10, Scheduler: Step
+Classifier LR: 1.0000000000000006e-10, Scheduler: Step
+Epoch: 217, Training - Augmentor Loss: 1.140381740368601, Training - Classifier Loss: 230.61940863728523, Training F1: 0.8204866003926558, Validation Loss: 0.11649658934400958, Validation F1: 0.7540486311076243, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-10, Scheduler: Step
+Classifier LR: 1.0000000000000006e-10, Scheduler: Step
+Epoch: 218, Training - Augmentor Loss: 1.1232073346743618, Training - Classifier Loss: 230.65482258796692, Training F1: 0.8199099735508726, Validation Loss: 0.11655173875193754, Validation F1: 0.7548743657664712, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-10, Scheduler: Step
+Classifier LR: 1.0000000000000006e-10, Scheduler: Step
+Epoch: 219, Training - Augmentor Loss: 1.096218693207599, Training - Classifier Loss: 230.64226770401, Training F1: 0.8206576252986125, Validation Loss: 0.11672641596909905, Validation F1: 0.7529008849042806, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-10, Scheduler: Step
+Classifier LR: 1.0000000000000006e-10, Scheduler: Step
+Epoch: 220, Training - Augmentor Loss: 1.173717238696175, Training - Classifier Loss: 230.64258881409964, Training F1: 0.8193420470997298, Validation Loss: 0.11651765714588305, Validation F1: 0.7552937722195822, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-10, Scheduler: Step
+Classifier LR: 1.0000000000000006e-10, Scheduler: Step
+Epoch: 221, Training - Augmentor Loss: 1.114768985846922, Training - Classifier Loss: 230.54201855262122, Training F1: 0.8214752794320075, Validation Loss: 0.11763050972170105, Validation F1: 0.7354359863942582, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-10, Scheduler: Step
+Classifier LR: 1.0000000000000006e-10, Scheduler: Step
+Epoch: 222, Training - Augmentor Loss: 1.1550949950028553, Training - Classifier Loss: 230.78036551674208, Training F1: 0.8178523691718416, Validation Loss: 0.11662269904073654, Validation F1: 0.7530249797819609, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-10, Scheduler: Step
+Classifier LR: 1.0000000000000006e-10, Scheduler: Step
+Epoch: 223, Training - Augmentor Loss: 1.073119268127698, Training - Classifier Loss: 230.56823204954466, Training F1: 0.821479032599092, Validation Loss: 0.1161789449845782, Validation F1: 0.7567518501011334, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-10, Scheduler: Step
+Classifier LR: 1.0000000000000006e-10, Scheduler: Step
+Epoch: 224, Training - Augmentor Loss: 1.1920247672890885, Training - Classifier Loss: 230.58195038636526, Training F1: 0.820759206352733, Validation Loss: 0.11665685509369914, Validation F1: 0.7536306878237309, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-10, Scheduler: Step
+Classifier LR: 1.0000000000000006e-10, Scheduler: Step
+Epoch: 225, Training - Augmentor Loss: 1.1558676732934903, Training - Classifier Loss: 230.55504235625267, Training F1: 0.8213283598455673, Validation Loss: 0.11644298245447764, Validation F1: 0.758782672985052, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-10, Scheduler: Step
+Classifier LR: 1.0000000000000006e-10, Scheduler: Step
+Epoch: 226, Training - Augmentor Loss: 1.1937687520012332, Training - Classifier Loss: 230.62036445736885, Training F1: 0.8195444758631352, Validation Loss: 0.11647665992017388, Validation F1: 0.7495111742277396, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-10, Scheduler: Step
+Classifier LR: 1.0000000000000006e-10, Scheduler: Step
+Epoch: 227, Training - Augmentor Loss: 1.1506300001567524, Training - Classifier Loss: 230.57008474071822, Training F1: 0.8216198590186478, Validation Loss: 0.11645740886518068, Validation F1: 0.758432234776959, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-11, Scheduler: Step
+Classifier LR: 1.0000000000000006e-11, Scheduler: Step
+Epoch: 228, Training - Augmentor Loss: 1.1688036215518878, Training - Classifier Loss: 230.5811963379383, Training F1: 0.820979666982909, Validation Loss: 0.11646323201348054, Validation F1: 0.7557396456315255, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-11, Scheduler: Step
+Classifier LR: 1.0000000000000006e-11, Scheduler: Step
+Epoch: 229, Training - Augmentor Loss: 1.0979142515557214, Training - Classifier Loss: 230.63142363230386, Training F1: 0.8209595484151387, Validation Loss: 0.11660215869453383, Validation F1: 0.7534955786865414, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-11, Scheduler: Step
+Classifier LR: 1.0000000000000006e-11, Scheduler: Step
+Epoch: 230, Training - Augmentor Loss: 1.134477015858124, Training - Classifier Loss: 230.58253238598505, Training F1: 0.8211222589418732, Validation Loss: 0.11643245515010237, Validation F1: 0.7587626796834788, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-11, Scheduler: Step
+Classifier LR: 1.0000000000000006e-11, Scheduler: Step
+Epoch: 231, Training - Augmentor Loss: 1.1477503217270926, Training - Classifier Loss: 230.39496583739916, Training F1: 0.823386935392108, Validation Loss: 0.1168711399507011, Validation F1: 0.7476951602998391, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-11, Scheduler: Step
+Classifier LR: 1.0000000000000006e-11, Scheduler: Step
+Epoch: 232, Training - Augmentor Loss: 1.1866287619175182, Training - Classifier Loss: 230.84172949194908, Training F1: 0.817161772044235, Validation Loss: 0.11641793396431198, Validation F1: 0.7596599589943475, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-11, Scheduler: Step
+Classifier LR: 1.0000000000000006e-11, Scheduler: Step
+Epoch: 233, Training - Augmentor Loss: 1.1636537003723788, Training - Classifier Loss: 230.66941177845, Training F1: 0.8200685039602289, Validation Loss: 0.11666322481423566, Validation F1: 0.7545540850076329, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-11, Scheduler: Step
+Classifier LR: 1.0000000000000006e-11, Scheduler: Step
+Epoch: 234, Training - Augmentor Loss: 1.1046643777515708, Training - Classifier Loss: 230.7213168243567, Training F1: 0.819380339270475, Validation Loss: 0.11692437137472367, Validation F1: 0.7435808934352588, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-11, Scheduler: Step
+Classifier LR: 1.0000000000000006e-11, Scheduler: Step
+Epoch: 235, Training - Augmentor Loss: 1.1531660185873231, Training - Classifier Loss: 230.68260899186134, Training F1: 0.8191366239009439, Validation Loss: 0.11667563038852374, Validation F1: 0.7540543779726092, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-11, Scheduler: Step
+Classifier LR: 1.0000000000000006e-11, Scheduler: Step
+Epoch: 236, Training - Augmentor Loss: 1.0864374792636227, Training - Classifier Loss: 230.7878230114778, Training F1: 0.8186789831556313, Validation Loss: 0.11655666921045874, Validation F1: 0.7556311417614671, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-11, Scheduler: Step
+Classifier LR: 1.0000000000000006e-11, Scheduler: Step
+Epoch: 237, Training - Augmentor Loss: 1.2399592947489662, Training - Classifier Loss: 230.53448365132013, Training F1: 0.8204234679232314, Validation Loss: 0.11646414920477326, Validation F1: 0.7505578863458461, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-11, Scheduler: Step
+Classifier LR: 1.0000000000000006e-11, Scheduler: Step
+Epoch: 238, Training - Augmentor Loss: 1.204688999267243, Training - Classifier Loss: 230.64563277363777, Training F1: 0.8198118249569716, Validation Loss: 0.11684603639944068, Validation F1: 0.7485027709169406, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-11, Scheduler: Step
+Classifier LR: 1.0000000000000006e-11, Scheduler: Step
+Epoch: 239, Training - Augmentor Loss: 1.0929918633484021, Training - Classifier Loss: 230.6260252992312, Training F1: 0.8214532256372129, Validation Loss: 0.11633059575960233, Validation F1: 0.759352656800284, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-11, Scheduler: Step
+Classifier LR: 1.0000000000000006e-11, Scheduler: Step
+Epoch: 240, Training - Augmentor Loss: 1.1119345800071112, Training - Classifier Loss: 230.7219920953115, Training F1: 0.8195773619273767, Validation Loss: 0.11659954968715777, Validation F1: 0.7537396997624206, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-11, Scheduler: Step
+Classifier LR: 1.0000000000000006e-11, Scheduler: Step
+Epoch: 241, Training - Augmentor Loss: 1.1880317743264943, Training - Classifier Loss: 230.5811448097229, Training F1: 0.820668280800075, Validation Loss: 0.11634133146147078, Validation F1: 0.7580788665380218, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-11, Scheduler: Step
+Classifier LR: 1.0000000000000006e-11, Scheduler: Step
+Epoch: 242, Training - Augmentor Loss: 1.2347896744184936, Training - Classifier Loss: 230.84754489858946, Training F1: 0.8163589037989093, Validation Loss: 0.11666232566251922, Validation F1: 0.7544871361416846, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-11, Scheduler: Step
+Classifier LR: 1.0000000000000006e-11, Scheduler: Step
+Epoch: 243, Training - Augmentor Loss: 1.1205207261043597, Training - Classifier Loss: 230.71316381295523, Training F1: 0.8192909212764161, Validation Loss: 0.1164930815887882, Validation F1: 0.7553516606044303, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-11, Scheduler: Step
+Classifier LR: 1.0000000000000006e-11, Scheduler: Step
+Epoch: 244, Training - Augmentor Loss: 1.192076373849962, Training - Classifier Loss: 230.38739702105522, Training F1: 0.8223013120884648, Validation Loss: 0.11650035005717005, Validation F1: 0.7547676547775477, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-11, Scheduler: Step
+Classifier LR: 1.0000000000000006e-11, Scheduler: Step
+Epoch: 245, Training - Augmentor Loss: 1.216160550296839, Training - Classifier Loss: 230.7230514883995, Training F1: 0.818673443683174, Validation Loss: 0.11634001241842278, Validation F1: 0.7568352246699519, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-11, Scheduler: Step
+Classifier LR: 1.0000000000000006e-11, Scheduler: Step
+Epoch: 246, Training - Augmentor Loss: 1.1594541282880375, Training - Classifier Loss: 230.6375228961309, Training F1: 0.8206538799269802, Validation Loss: 0.1163418754758571, Validation F1: 0.7590244294991406, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-11, Scheduler: Step
+Classifier LR: 1.0000000000000006e-11, Scheduler: Step
+Epoch: 247, Training - Augmentor Loss: 1.207257453690166, Training - Classifier Loss: 230.87151547273, Training F1: 0.8159213216693575, Validation Loss: 0.11701928404749348, Validation F1: 0.7462192854924162, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-12, Scheduler: Step
+Classifier LR: 1.0000000000000006e-12, Scheduler: Step
+Epoch: 248, Training - Augmentor Loss: 1.179299304451888, Training - Classifier Loss: 230.6705076098442, Training F1: 0.8192721223241499, Validation Loss: 0.11656163440189544, Validation F1: 0.7575937140069174, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-12, Scheduler: Step
+Classifier LR: 1.0000000000000006e-12, Scheduler: Step
+Epoch: 249, Training - Augmentor Loss: 1.2004285073866565, Training - Classifier Loss: 230.62307001153627, Training F1: 0.8189096738742776, Validation Loss: 0.11647682644969524, Validation F1: 0.7576128202815289, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-12, Scheduler: Step
+Classifier LR: 1.0000000000000006e-12, Scheduler: Step
+Epoch: 250, Training - Augmentor Loss: 1.112858271652044, Training - Classifier Loss: 230.67143365740776, Training F1: 0.8203949442036396, Validation Loss: 0.11667778773337417, Validation F1: 0.7534020674363726, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-12, Scheduler: Step
+Classifier LR: 1.0000000000000006e-12, Scheduler: Step
+Epoch: 251, Training - Augmentor Loss: 1.1360408054911961, Training - Classifier Loss: 230.84241491556168, Training F1: 0.8182377248861051, Validation Loss: 0.11634217662908208, Validation F1: 0.7583517013791417, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-12, Scheduler: Step
+Classifier LR: 1.0000000000000006e-12, Scheduler: Step
+Epoch: 252, Training - Augmentor Loss: 1.1671971130695813, Training - Classifier Loss: 230.90876083572707, Training F1: 0.8172891190950078, Validation Loss: 0.11669883628405803, Validation F1: 0.7509836632133313, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-12, Scheduler: Step
+Classifier LR: 1.0000000000000006e-12, Scheduler: Step
+Epoch: 253, Training - Augmentor Loss: 1.152570863171756, Training - Classifier Loss: 230.65320470929146, Training F1: 0.8201528346594885, Validation Loss: 0.11644646557356125, Validation F1: 0.7550499405343521, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-12, Scheduler: Step
+Classifier LR: 1.0000000000000006e-12, Scheduler: Step
+Epoch: 254, Training - Augmentor Loss: 1.1448841709293447, Training - Classifier Loss: 230.44177540143332, Training F1: 0.8230741259237497, Validation Loss: 0.11617253716553355, Validation F1: 0.7615732228982853, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-12, Scheduler: Step
+Classifier LR: 1.0000000000000006e-12, Scheduler: Step
+Epoch: 255, Training - Augmentor Loss: 1.1839311430763928, Training - Classifier Loss: 230.63140515486398, Training F1: 0.8203510385145206, Validation Loss: 0.1171746472057685, Validation F1: 0.7450367950943912, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-12, Scheduler: Step
+Classifier LR: 1.0000000000000006e-12, Scheduler: Step
+Epoch: 256, Training - Augmentor Loss: 1.144910512561334, Training - Classifier Loss: 230.71670013666153, Training F1: 0.8188000967428001, Validation Loss: 0.11630268113078672, Validation F1: 0.7549760975333875, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-12, Scheduler: Step
+Classifier LR: 1.0000000000000006e-12, Scheduler: Step
+Epoch: 257, Training - Augmentor Loss: 1.1526226070153978, Training - Classifier Loss: 230.7176981071631, Training F1: 0.8184863027406943, Validation Loss: 0.11644712226798748, Validation F1: 0.7584523523834542, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-12, Scheduler: Step
+Classifier LR: 1.0000000000000006e-12, Scheduler: Step
+Epoch: 258, Training - Augmentor Loss: 1.0537865207644093, Training - Classifier Loss: 230.8771472275257, Training F1: 0.8172034874162076, Validation Loss: 0.11654288253159525, Validation F1: 0.7548158879067592, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-12, Scheduler: Step
+Classifier LR: 1.0000000000000006e-12, Scheduler: Step
+Epoch: 259, Training - Augmentor Loss: 1.1956061406118959, Training - Classifier Loss: 230.75850784778595, Training F1: 0.818138079154149, Validation Loss: 0.11686198728896345, Validation F1: 0.7523980959003262, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-12, Scheduler: Step
+Classifier LR: 1.0000000000000006e-12, Scheduler: Step
+Epoch: 260, Training - Augmentor Loss: 1.2198517855096043, Training - Classifier Loss: 230.57534828782082, Training F1: 0.8197285386211544, Validation Loss: 0.1163497897341452, Validation F1: 0.7580418847282857, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-12, Scheduler: Step
+Classifier LR: 1.0000000000000006e-12, Scheduler: Step
+Epoch: 261, Training - Augmentor Loss: 1.2101832711517393, Training - Classifier Loss: 230.57684608300528, Training F1: 0.8197959368726844, Validation Loss: 0.11679754857623867, Validation F1: 0.7482193399717815, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-12, Scheduler: Step
+Classifier LR: 1.0000000000000006e-12, Scheduler: Step
+Epoch: 262, Training - Augmentor Loss: 1.1281407639910412, Training - Classifier Loss: 230.60460449258485, Training F1: 0.8202995045587612, Validation Loss: 0.11674964017345701, Validation F1: 0.7531108931135133, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-12, Scheduler: Step
+Classifier LR: 1.0000000000000006e-12, Scheduler: Step
+Epoch: 263, Training - Augmentor Loss: 1.1748917779124213, Training - Classifier Loss: 230.60913237929344, Training F1: 0.8205446593683441, Validation Loss: 0.11639142440309098, Validation F1: 0.7576207498012001, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-12, Scheduler: Step
+Classifier LR: 1.0000000000000006e-12, Scheduler: Step
+Epoch: 264, Training - Augmentor Loss: 1.1197893591571149, Training - Classifier Loss: 230.4632243514061, Training F1: 0.822438927669395, Validation Loss: 0.11659804755587284, Validation F1: 0.7523301481570425, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-12, Scheduler: Step
+Classifier LR: 1.0000000000000006e-12, Scheduler: Step
+Epoch: 265, Training - Augmentor Loss: 1.1141532831661607, Training - Classifier Loss: 230.68261995911598, Training F1: 0.8192028940669815, Validation Loss: 0.11656197217276781, Validation F1: 0.7583250235503513, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-12, Scheduler: Step
+Classifier LR: 1.0000000000000006e-12, Scheduler: Step
+Epoch: 266, Training - Augmentor Loss: 1.1904900131817158, Training - Classifier Loss: 230.54043451944986, Training F1: 0.8209955763552405, Validation Loss: 0.11650616768589805, Validation F1: 0.7554975185570451, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000006e-12, Scheduler: Step
+Classifier LR: 1.0000000000000006e-12, Scheduler: Step
+Epoch: 267, Training - Augmentor Loss: 1.08205829369255, Training - Classifier Loss: 230.5435065726439, Training F1: 0.8211033037201602, Validation Loss: 0.11636929630492784, Validation F1: 0.7585022053668962, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000007e-13, Scheduler: Step
+Classifier LR: 1.0000000000000007e-13, Scheduler: Step
+Epoch: 268, Training - Augmentor Loss: 1.0950481742023233, Training - Classifier Loss: 230.7343949576219, Training F1: 0.8195587913639316, Validation Loss: 0.11656344091737425, Validation F1: 0.7546330398931884, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000007e-13, Scheduler: Step
+Classifier LR: 1.0000000000000007e-13, Scheduler: Step
+Epoch: 269, Training - Augmentor Loss: 1.1679314200702418, Training - Classifier Loss: 230.6137001812458, Training F1: 0.8207313115564736, Validation Loss: 0.11672596578743416, Validation F1: 0.7509899304940213, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000007e-13, Scheduler: Step
+Classifier LR: 1.0000000000000007e-13, Scheduler: Step
+Epoch: 270, Training - Augmentor Loss: 1.1258955746893662, Training - Classifier Loss: 230.5355015595754, Training F1: 0.8217091663481975, Validation Loss: 0.11648587612429963, Validation F1: 0.7573093929394787, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000007e-13, Scheduler: Step
+Classifier LR: 1.0000000000000007e-13, Scheduler: Step
+Epoch: 271, Training - Augmentor Loss: 1.2021705576178192, Training - Classifier Loss: 230.56525562206903, Training F1: 0.8198092699550249, Validation Loss: 0.11640093462538544, Validation F1: 0.7572270399510425, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000007e-13, Scheduler: Step
+Classifier LR: 1.0000000000000007e-13, Scheduler: Step
+Epoch: 272, Training - Augmentor Loss: 1.1608476671350065, Training - Classifier Loss: 230.71686672170958, Training F1: 0.8184445284391256, Validation Loss: 0.1166857106075793, Validation F1: 0.7553266763080221, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000007e-13, Scheduler: Step
+Classifier LR: 1.0000000000000007e-13, Scheduler: Step
+Epoch: 273, Training - Augmentor Loss: 1.161814470721841, Training - Classifier Loss: 230.58986629048982, Training F1: 0.8199027618991602, Validation Loss: 0.11632987108020577, Validation F1: 0.7603956805723371, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000007e-13, Scheduler: Step
+Classifier LR: 1.0000000000000007e-13, Scheduler: Step
+Epoch: 274, Training - Augmentor Loss: 1.0932695559504282, Training - Classifier Loss: 230.57503553231558, Training F1: 0.8217785677817164, Validation Loss: 0.11693796836878875, Validation F1: 0.7446281343365434, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000007e-13, Scheduler: Step
+Classifier LR: 1.0000000000000007e-13, Scheduler: Step
+Epoch: 275, Training - Augmentor Loss: 1.1520488105064335, Training - Classifier Loss: 230.78576307495436, Training F1: 0.8187477064418867, Validation Loss: 0.11653956405730116, Validation F1: 0.7595398303159038, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000007e-13, Scheduler: Step
+Classifier LR: 1.0000000000000007e-13, Scheduler: Step
+Epoch: 276, Training - Augmentor Loss: 1.149818660202148, Training - Classifier Loss: 230.63916439811388, Training F1: 0.819926415309162, Validation Loss: 0.11633103961395315, Validation F1: 0.7626853130490138, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000007e-13, Scheduler: Step
+Classifier LR: 1.0000000000000007e-13, Scheduler: Step
+Epoch: 277, Training - Augmentor Loss: 1.1582013470513932, Training - Classifier Loss: 230.50441005825996, Training F1: 0.8220382302160721, Validation Loss: 0.11658350469566617, Validation F1: 0.7536991800145595, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000007e-13, Scheduler: Step
+Classifier LR: 1.0000000000000007e-13, Scheduler: Step
+Epoch: 278, Training - Augmentor Loss: 1.169118019216891, Training - Classifier Loss: 230.53140226999918, Training F1: 0.8216129188168291, Validation Loss: 0.11703401120755041, Validation F1: 0.7430923815906505, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000007e-13, Scheduler: Step
+Classifier LR: 1.0000000000000007e-13, Scheduler: Step
+Epoch: 279, Training - Augmentor Loss: 1.1720469034686782, Training - Classifier Loss: 230.59846311807632, Training F1: 0.819182749283816, Validation Loss: 0.11671386836680364, Validation F1: 0.7517882675098606, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000007e-13, Scheduler: Step
+Classifier LR: 1.0000000000000007e-13, Scheduler: Step
+Epoch: 280, Training - Augmentor Loss: 1.1345282776665044, Training - Classifier Loss: 230.65619243184724, Training F1: 0.8196497256394174, Validation Loss: 0.11654449222721938, Validation F1: 0.7586888357442952, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000007e-13, Scheduler: Step
+Classifier LR: 1.0000000000000007e-13, Scheduler: Step
+Epoch: 281, Training - Augmentor Loss: 1.1050350258080168, Training - Classifier Loss: 230.69746310512224, Training F1: 0.8189222496874617, Validation Loss: 0.11677164589867357, Validation F1: 0.7512655672090358, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000007e-13, Scheduler: Step
+Classifier LR: 1.0000000000000007e-13, Scheduler: Step
+Epoch: 282, Training - Augmentor Loss: 1.2109207464188785, Training - Classifier Loss: 230.6845120191574, Training F1: 0.8190712162988721, Validation Loss: 0.11644572797028915, Validation F1: 0.7578035727755255, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000007e-13, Scheduler: Step
+Classifier LR: 1.0000000000000007e-13, Scheduler: Step
+Epoch: 283, Training - Augmentor Loss: 1.1200133233232161, Training - Classifier Loss: 230.65141540765762, Training F1: 0.8195836148075584, Validation Loss: 0.11639274910033456, Validation F1: 0.7572691341759388, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000007e-13, Scheduler: Step
+Classifier LR: 1.0000000000000007e-13, Scheduler: Step
+Epoch: 284, Training - Augmentor Loss: 1.0319754079979855, Training - Classifier Loss: 230.6180469195048, Training F1: 0.8218829245433169, Validation Loss: 0.11645725956749337, Validation F1: 0.7538876176016553, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000007e-13, Scheduler: Step
+Classifier LR: 1.0000000000000007e-13, Scheduler: Step
+Epoch: 285, Training - Augmentor Loss: 1.1649805653350995, Training - Classifier Loss: 230.64075374603271, Training F1: 0.8197200891750495, Validation Loss: 0.11659998223311749, Validation F1: 0.7515427649461777, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000007e-13, Scheduler: Step
+Classifier LR: 1.0000000000000007e-13, Scheduler: Step
+Epoch: 286, Training - Augmentor Loss: 1.0946395480492204, Training - Classifier Loss: 230.57344696919122, Training F1: 0.8215449202752536, Validation Loss: 0.11668019493981852, Validation F1: 0.7499678869529806, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000007e-13, Scheduler: Step
+Classifier LR: 1.0000000000000007e-13, Scheduler: Step
+Epoch: 287, Training - Augmentor Loss: 1.1314544602362275, Training - Classifier Loss: 230.6999900738398, Training F1: 0.8191798205209277, Validation Loss: 0.1165624931665008, Validation F1: 0.7581361006482089, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000008e-14, Scheduler: Step
+Classifier LR: 1.0000000000000008e-14, Scheduler: Step
+Epoch: 288, Training - Augmentor Loss: 1.1676027813404062, Training - Classifier Loss: 230.52110957105955, Training F1: 0.8212393709957455, Validation Loss: 0.11618303498731772, Validation F1: 0.764218681404361, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000008e-14, Scheduler: Step
+Classifier LR: 1.0000000000000008e-14, Scheduler: Step
+Epoch: 289, Training - Augmentor Loss: 1.1200000278614273, Training - Classifier Loss: 230.55262982845306, Training F1: 0.8215256405982717, Validation Loss: 0.11677530847115411, Validation F1: 0.7501109029018578, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000008e-14, Scheduler: Step
+Classifier LR: 1.0000000000000008e-14, Scheduler: Step
+Epoch: 290, Training - Augmentor Loss: 1.1426729193850633, Training - Classifier Loss: 230.58338818947473, Training F1: 0.8201506302490804, Validation Loss: 0.11658214755411003, Validation F1: 0.7509500919862772, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000008e-14, Scheduler: Step
+Classifier LR: 1.0000000000000008e-14, Scheduler: Step
+Epoch: 291, Training - Augmentor Loss: 1.149802898465244, Training - Classifier Loss: 230.8414345383644, Training F1: 0.8168843172849163, Validation Loss: 0.11647145913725583, Validation F1: 0.7552403655847462, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000008e-14, Scheduler: Step
+Classifier LR: 1.0000000000000008e-14, Scheduler: Step
+Epoch: 292, Training - Augmentor Loss: 1.1386430707186719, Training - Classifier Loss: 230.6507906615734, Training F1: 0.8207730721486063, Validation Loss: 0.11672775816742409, Validation F1: 0.7459641150294161, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000008e-14, Scheduler: Step
+Classifier LR: 1.0000000000000008e-14, Scheduler: Step
+Epoch: 293, Training - Augmentor Loss: 1.1615591494536754, Training - Classifier Loss: 230.7081535855929, Training F1: 0.8188427072884676, Validation Loss: 0.11655853361413009, Validation F1: 0.7553483987528261, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000008e-14, Scheduler: Step
+Classifier LR: 1.0000000000000008e-14, Scheduler: Step
+Epoch: 294, Training - Augmentor Loss: 1.1105966456812741, Training - Classifier Loss: 230.6638067563375, Training F1: 0.8194610782216905, Validation Loss: 0.11684550584742473, Validation F1: 0.7486952053243366, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000008e-14, Scheduler: Step
+Classifier LR: 1.0000000000000008e-14, Scheduler: Step
+Epoch: 295, Training - Augmentor Loss: 1.0887030479815014, Training - Classifier Loss: 230.6467228035132, Training F1: 0.8199893189407607, Validation Loss: 0.11643710249497485, Validation F1: 0.7586549584885034, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000008e-14, Scheduler: Step
+Classifier LR: 1.0000000000000008e-14, Scheduler: Step
+Epoch: 296, Training - Augmentor Loss: 1.2198441988164177, Training - Classifier Loss: 230.49267180760702, Training F1: 0.8210550850580768, Validation Loss: 0.1166709172126602, Validation F1: 0.7552551329303535, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000008e-14, Scheduler: Step
+Classifier LR: 1.0000000000000008e-14, Scheduler: Step
+Epoch: 297, Training - Augmentor Loss: 1.1594248930919093, Training - Classifier Loss: 230.7122241059939, Training F1: 0.8187642246143673, Validation Loss: 0.116447979147861, Validation F1: 0.754517903337512, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000008e-14, Scheduler: Step
+Classifier LR: 1.0000000000000008e-14, Scheduler: Step
+Epoch: 298, Training - Augmentor Loss: 1.1434796985949636, Training - Classifier Loss: 230.68168772260347, Training F1: 0.819161079458277, Validation Loss: 0.11665592619014419, Validation F1: 0.7524865652988248, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000008e-14, Scheduler: Step
+Classifier LR: 1.0000000000000008e-14, Scheduler: Step
+Epoch: 299, Training - Augmentor Loss: 1.153902414924308, Training - Classifier Loss: 230.42856057484946, Training F1: 0.8220335480238071, Validation Loss: 0.11662845474256088, Validation F1: 0.7509518037900922, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000008e-14, Scheduler: Step
+Classifier LR: 1.0000000000000008e-14, Scheduler: Step
+Epoch: 300, Training - Augmentor Loss: 1.161900101286771, Training - Classifier Loss: 230.57840986053148, Training F1: 0.8211410275732739, Validation Loss: 0.11616148536720901, Validation F1: 0.7660716055299885, Best F1: 0.7671108678046106 at Epoch 166
+Training Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32], Validation Classes: [ 0  1  2  3  4  5  6  7  8  9 10 11 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 32]
+Augmentor LR: 1.0000000000000008e-14, Scheduler: Step
+Classifier LR: 1.0000000000000008e-14, Scheduler: Step
