@@ -1,7 +1,7 @@
 # TR3D_PointAugDGCNN
 PointAugment and DGCNN tree species classification for [3DForEcoTech Tr3D Species Benchmark](https://github.com/stefp/Tr3D_species). Model achieved the highest F1 score of 0.767 during the training/validation phase.
 
-## Confusion Matrix of Best Performance
+### Confusion Matrix of Best Performance
 ![Confusion Matrix](https://github.com/Brent-Murray/TR3D_PointAugDGCNN/blob/main/checkpoints/dgcnn_pointaugment_4096/output/confusion_matrix.png)
 
 Models
