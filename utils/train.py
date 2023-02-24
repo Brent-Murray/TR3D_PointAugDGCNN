@@ -338,7 +338,7 @@ def train(params, io, train_set, test_set):
                     f"Classifier LR: {scheduler2_c.optimizer.param_groups[0]['lr']}, Scheduler: Step"
                 )                          
 
-def test(params, io, test_loader):
+def test(params, io, test_set):
     device = torch.device("cuda" if params["cuda"] else "cpu")
 
     # Load model
@@ -358,36 +358,26 @@ def test(params, io, test_loader):
     test_true = []
     test_pred = []
 
+    test_loader = DataLoader(test_set, batch_size=params["batch_size"], shuffle=False, pin_memory=True)
     # Testing
-    for data, label in tqdm(
+    for data in tqdm(
         test_loader, desc="Testing Total: ", leave=False, colour="green"
     ):
         exp_name = params["exp_name"]
         # Get data, labels, & batch size
-        data, label = (
-            data.to(device),
-            label.to(device).squeeze(),
-        )
+        data = data.to(device)
         data = data.permute(0, 2, 1)
         batch_size = data.size()[0]
 
         # Run Model
         output = model(data)
-        
-        test_true.append(torch.argmax(label, dim=1).cpu().numpy())
                 
         pred_sm = F.softmax(output, dim=1)
         test_pred.append(torch.argmax(pred_sm, dim=1).cpu().numpy())
         
 
     # Calculate f1
-    test_true = np.concatenate(test_true)
     test_pred = np.concatenate(test_pred)
-    f1 = f1_score(test_true, test_pred, average='weighted')
     
-    out_df = pd.DataFrame({'y_true': test_true,
-                           'y_pred': test_pred})
-    out_df.to_csv(f"checkpoints/{exp_name}/output/output.csv", index=False)
-    
-
-    io.cprint(f"F1: {f1}")
+    out_df = pd.DataFrame({'y_pred': test_pred})
+    out_df.to_csv(f"checkpoints/{exp_name}/output/test_output.csv", index=False)
