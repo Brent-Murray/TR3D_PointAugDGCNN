@@ -15,8 +15,8 @@ Contents
 ----
 | Folder | File | Description |
 | ------ | ---- | ----------- |
-| | [species_classes.csv](https://github.com/Brent-Murray/TR3D_PointAugDGCNN/blob/main/species_classes.csv) | csv of species and associated class number |
-| | [main.py](https://github.com/Brent-Murray/TR3D_PointAugDGCNN/blob/main/main.py) | Main script to run the model |
+| root | [species_classes.csv](https://github.com/Brent-Murray/TR3D_PointAugDGCNN/blob/main/species_classes.csv) | csv of species and associated class number |
+| root | [main.py](https://github.com/Brent-Murray/TR3D_PointAugDGCNN/blob/main/main.py) | Main script to run the model |
 | augment | [augmentor.py](https://github.com/Brent-Murray/TR3D_PointAugDGCNN/blob/main/augment/augmentor.py) | The augmentor (generator) model |
 | checkpoints/dgcnn_pointaugment_4096 | [f1.png](https://github.com/Brent-Murray/TR3D_PointAugDGCNN/blob/main/checkpoints/dgcnn_pointaugment_4096/f1.png) | Image of the validation and training F1 scores |
 | checkpoints/dgcnn_pointaugment_4096 | [loss_f1.csv](https://github.com/Brent-Murray/TR3D_PointAugDGCNN/blob/main/checkpoints/dgcnn_pointaugment_4096/loss_f1.csv) | csv of the augmentor losses, classifier losses, and F1 scores |
