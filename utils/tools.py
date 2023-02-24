@@ -47,10 +47,11 @@ def read_las(pointcloudfile, get_attributes=False, useevery=1):
     
 class PointCloudsInDF(Dataset):
     def __init__(
-        self, filepath, df,
+        self, filepath, df, label=True
     ):
         self.filepath = filepath
         self.df = df
+        self.label = label
         super().__init__()
 
     def __len__(self):
@@ -67,16 +68,20 @@ class PointCloudsInDF(Dataset):
 
         # Read las/laz file
         coords = read_las(file, get_attributes=False)
-
-        # Get Target
-        target = df_idx.iloc[:, 10:].values.flatten().tolist()
-
         # To Tensor
         coords = torch.from_numpy(coords).float()
-        target = torch.from_numpy(np.array(target)).type(torch.FloatTensor)
-        target = target[None, :]
 
-        return coords, target
+        # Get Target
+        if self.label:
+            target = df_idx.iloc[:, 10:].values.flatten().tolist()
+
+            # To Tensor
+            target = torch.from_numpy(np.array(target)).type(torch.FloatTensor)
+            target = target[None, :]
+
+            return coords, target
+        else:
+            return coords
 
 
 def write_las(outpoints, outfilepath, attribute_dict={}):
@@ -204,9 +209,8 @@ def delete_files(root_dir, glob="*"):
 
     # Delete files
     for f in files:
-        os.remove(f)
-
-
+        os.remove(f)    
+    
 def check_multi_gpu(n_gpus):
     # Check if multiple GPUs are available
     if torch.cuda.device_count() > 1 and n_gpus > 1:
