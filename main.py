@@ -55,13 +55,14 @@ def main(params):
 
     test_data_path = os.path.join(params["test_path"], str(params["num_points"]))
     test_df = params["test_df"]
-    testset = PointCloudsInDF(test_data_path, test_df)
     # testloader = DataLoader(testset, batch_size=params["batch_size"], shuffle=False, pin_memory=True)
 
     if not params["eval"]:
+        testset = PointCloudsInDF(test_data_path, test_df)
         train(params, io, trainset, testset)
         torch.cuda.empty_cache()
     else:
+        testset = PointCloudsInDF(test_data_path, test_df, label=False)
         test(params, io, testset)
         
         
@@ -70,7 +71,7 @@ if __name__ == "__main__":
     df = pd.read_csv(r"E:\TR3D_species\tree_metadata_training_publish_BM.csv") # read csv
     train_df = df.loc[df["train_val"] == "train"] # training
     val_df = df.loc[df["train_val"] == "val"] # validation
-    
+    test_df = pd.read_csv(r"E:\TR3D_species\test.csv")
     classes = list(range(33))
     train_prop = [100 * len(train_df[train_df["class"] == i]) / len(train_df) for i in classes]
     train_count = [len(train_df[train_df["class"] == i]) for i in classes]
@@ -84,8 +85,8 @@ if __name__ == "__main__":
         "batch_size": 24,  # batch size
         "train_path": r"E:\TR3D_species\train\datasets\cluster_fps",
         "train_df": train_df,
-        "test_path": r"E:\TR3D_species\val\datasets\cluster_fps",
-        "test_df": val_df,
+        "test_path": r"E:\TR3D_species\test\datasets\cluster_fps",
+        "test_df": test_df,
         "augment": True, # augment
         "n_augs": n_augs, # number of augmentations
         "classes": list(range(33)),  # classes
@@ -105,14 +106,16 @@ if __name__ == "__main__":
         "k": 20,  # k nearest points
         "model_path": r"D:\MurrayBrent\projects\TR3D\checkpoints\dgcnn_pointaugment_4096\models\best_model.t7",  # pretrained model path
         "cuda": True,  # use cuda
-        "eval": False,  # run testing
+        "eval": True,  # run testing
         "train_weights": train_weights, # training weights
         "write_aug": False, # write augmented files
-        "send_telegram": False
+        "send_telegram": False,
     }
+    
+    mn = params["exp_name"]
     if params["send_telegrams"]:
         mn = params["exp_name"]
         token = ''
         chat_id = ''
-        send_telegram(f"Starting {mn}", token=token, chat_id=chat_id)
+        send_telegram(f"Starting {mn}")
     main(params)
