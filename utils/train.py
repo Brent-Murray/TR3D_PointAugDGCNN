@@ -300,7 +300,7 @@ def train(params, io, train_set, test_set):
         )
         io.cprint(f"Training Classes: {np.unique(true_pred)}, Validation Classes: {np.unique(test_pred)}")
         
-        if params["send_telegrams"]:
+        if params["send_telegram"]:
             try:
                 token = ''
                 chat_id = ''
