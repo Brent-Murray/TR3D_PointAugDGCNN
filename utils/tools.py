@@ -134,16 +134,12 @@ class IOStream:
 
 def _init_(model_name):
     # Create folder structure
-    if not os.path.exists("checkpoints"):
-        os.makedirs("checkpoints")
-    if not os.path.exists("checkpoints/" + model_name):
-        os.makedirs("checkpoints/" + model_name)
-    if not os.path.exists("checkpoints/" + model_name + "/models"):
-        os.makedirs("checkpoints/" + model_name + "/models")
-    if not os.path.exists("checkpoints/" + model_name + "/output"):
-        os.makedirs("checkpoints/" + model_name + "/output")
-    if not os.path.exists("checkpoints/" + model_name + "/output/laz"):
-        os.makedirs("checkpoints/" + model_name + "/output/laz")
+    folders = ["checkpoints", f"checkpoints/{model_name}", 
+               f"checkpoints/{model_name}/models",
+               f"checkpoints/{model_name}/output",
+               f"checkpoints/{model_name}/output/laz"]
+    for folder in folders:
+        os.makedirs(folder, exist_ok=True)
 
 
 def make_confusion_matrix(
